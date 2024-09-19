@@ -129,11 +129,15 @@ footer {
     color: white;
     display: flex;
 }
+.social-media{
+    display: flex;
+
+}
 .adresses {
     display: flex;
     text-align: left;
 }
-.adresses section {
+.adresses  {
     display: flex;
     text-align: right;
 }
