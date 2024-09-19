@@ -22,21 +22,27 @@ header{
     display: flex;
     background-color: var(--secondary-color);
     align-items: center;
+    justify-content: space-around;
     font-size: 1rem;
     font-family:"Montserrat", sans-serif;
+    height: 100px;
 }
 
+ul{
+    display: flex;
+    gap: 15rem;
+}
 .logo-sesi-img{
     width: 100px;
     height: 100px;
 }
 
 .logo-img{
-    width: 150px;
+    width: 400px;
 }
 
 .nav-bar{
-    margin-left: 800px;
+    margin-left: 200px;
     flex-direction: row;
     display: flex;
     gap: 8rem;
@@ -54,13 +60,16 @@ li a:hover {
     transition: .3s ease-in-out;
 }
 .vertical-line {
-    width: 2px;
+    width: 2.2px;
     height: 50px;
     background-color: white;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
 }
 
+.bx bx-menu{
+    width: 100px;
+}
 
 
 
