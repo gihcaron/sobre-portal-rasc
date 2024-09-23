@@ -16,6 +16,13 @@
 :root{
     --bg-color: #FFFF;
     --secondary-color: #E30613;
+
+
+    /*Tipografia*/
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+
     }
 
 header{
@@ -70,6 +77,74 @@ li a:hover {
 .bx bx-menu{
     width: 100px;
 }
+
+/*Banner Sobre*/
+
+.banner-site{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../media/img/Background-sobre.jpeg');
+    background-size:cover;
+    background-position: bottom center;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.banner-site h1{
+    flex-direction: column;
+    font-size: var(--h1-font);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: var(--bg-color);
+    line-height: 1.2;
+    margin-bottom: 15px;  
+    margin-left: 80px; 
+}
+
+h1 span{
+    color:var(--secondary-color)
+}
+
+.banner-site p{
+    font-family:"Montserrat", sans-serif ;
+    font-size: var(--p-font);
+    font-weight: 450;
+    line-height: 30px;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.btn{
+    display:inline-block;
+    font-family:"Montserrat", sans-serif;
+    font-size: var(--p-font);
+    padding: 10px 45px;
+    background:var(--secondary-color);
+    font-size: 15px;
+    font-weight: 750;
+    line-height: 30px;
+    color:#ffff;
+    border-radius: 40px;
+    transition: all .50s ease;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.alunos-sobre{
+    position: absolute;
+    width: 850px;
+    height: 850px;
+    left: 930px;
+    top: 73px;
+
+}
+
+
+
+
 
 
 
